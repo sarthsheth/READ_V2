@@ -11,6 +11,9 @@ htmlcov/
 # Environment variables & secrets
 .env
 *.local.env
+*credentials*.json
+*key*.json
+service_account*.json
 
 # OS & Editor
 .DS_Store
