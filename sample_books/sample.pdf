@@ -1,0 +1,58 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 9 0 R >> >> >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 9 0 R >> >> >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 8 0 R /Resources << /Font << /F1 9 0 R >> >> >>
+endobj
+6 0 obj
+<< /Length 413 >>
+stream
+BT /F1 14 Tf 50 720 Td (The Cloud Architecture Handbook) Tj 0 -22 Td (Author: Sarth Sheth) Tj 0 -22 Td () Tj 0 -22 Td (Page 1: Architecture Overview) Tj 0 -22 Td (READ_V2 is a serverless reader designed for zero base monthly cost.) Tj 0 -22 Td (Files are delivered directly from Cloud Storage to browser viewports.) Tj 0 -22 Td (FastAPI serves strictly as the control plane for metadata and auth.) Tj 0 -22 Td ET
+endstream
+endobj
+7 0 obj
+<< /Length 360 >>
+stream
+BT /F1 14 Tf 50 720 Td (Page 2: Progress Synchronization Strategy) Tj 0 -22 Td () Tj 0 -22 Td (In PDF files, pages are fixed geometry. Progress is stored as an integer \('42'\).) Tj 0 -22 Td (The client reader debounces progress updates to every 15 seconds.) Tj 0 -22 Td (Immediate flushing occurs on reader close or browser visibility change.) Tj 0 -22 Td ET
+endstream
+endobj
+8 0 obj
+<< /Length 401 >>
+stream
+BT /F1 14 Tf 50 720 Td (Page 3: Google Cloud Platform Always-Free Tier) Tj 0 -22 Td () Tj 0 -22 Td (All resources are pinned strictly to us-central1 \(Iowa\).) Tj 0 -22 Td (Cloud Storage: 5 GB Standard Storage.) Tj 0 -22 Td (Cloud Firestore: 50,000 document reads, 20,000 document writes per day.) Tj 0 -22 Td (Cloud Run: Scales to zero instances when idle \($0 base recurring cost\).) Tj 0 -22 Td ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+10 0 obj
+<< /Title (The Cloud Architecture Handbook) /Author (Sarth Sheth) /Creator (READ_V2 Generator) >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000000379 00000 n 
+0000000505 00000 n 
+0000000968 00000 n 
+0000001378 00000 n 
+0000001829 00000 n 
+0000001899 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R /Info 10 0 R >>
+startxref
+2013
+%%EOF

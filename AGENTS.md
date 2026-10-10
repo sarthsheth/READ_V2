@@ -50,6 +50,14 @@ READ_V2 is a lightweight, serverless cloud-synced reader for EPUB and PDF files 
   * Browser visibility change (`document.visibilityState === 'hidden'`).
   * Page unload (`beforeunload`).
 
+### 2.7 User-Controlled Git & UAT Review Cycle
+* **NO Git Commands by Agent**: The AI agent must NEVER run any git commands (including `git status`, `git add`, `git commit`, `git push`, `git diff`). All version control actions are exclusively performed by the user.
+* **Review & UAT Protocol**: For every feature or milestone:
+  1. The agent writes and tests the code.
+  2. The agent presents a clear architectural explanation of the code so the user can read and understand it.
+  3. The agent provides explicit User Acceptance Testing (UAT) commands.
+  4. The user runs UAT, confirms the feature works as intended, and commits/pushes to GitHub themselves.
+
 ---
 
 ## 3. Tech Stack Conventions
